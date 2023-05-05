@@ -17,6 +17,13 @@ export default NuxtAuthHandler({
       name: 'credentials',
       credentials: {},
       async authorize(credentials: any) {
+        //! Uncomment this next return, and it will not throw an error
+        // return {
+        //   name: 'Test User',
+        //   accessToken: 'example-access-token',
+        //   refreshToken: 'example-refresh-token'
+        // }
+
         return {
           name: 'Test User',
           accessToken: 'example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token__example-access-token',
